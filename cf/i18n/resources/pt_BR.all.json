@@ -5118,5 +5118,20 @@
       "id": "Updating a plan requires API v{{.RequiredCCAPIVersion}} or newer. Your current target is v{{.CurrentCCAPIVersion}}.",
       "translation": "Updating a plan requires API v{{.RequiredCCAPIVersion}} or newer. Your current target is v{{.CurrentCCAPIVersion}}.",
       "modified": false
+   },
+   {
+      "id": "Restage app",
+      "translation": "Restage app",
+      "modified": false
+   },
+   {
+      "id": "TIP: Changes will not apply to existing running applications until they are restaged. Use `bind-service --force-restage` to force restage app.",
+      "translation": "TIP: Changes will not apply to existing running applications until they are restaged. Use `bind-service --force-restage` to force restage app.",
+      "modified": false
+   },
+   {
+      "id": "TIP: Changes will not apply to existing running applications until they are restaged. Use `unbind-service --force-restage` to force restage app.",
+      "translation": "TIP: Changes will not apply to existing running applications until they are restaged. Use `unbind-service --force-restage` to force restage app.",
+      "modified": false
    }
 ]
