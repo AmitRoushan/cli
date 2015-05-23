@@ -255,6 +255,7 @@ func newAppPresenter(app *cli.App) (presenter appPresenter) {
 					presentCommand("create-quota"),
 					presentCommand("delete-quota"),
 					presentCommand("update-quota"),
+					presentCommand("org-quota-usage"),
 				},
 				{
 					presentCommand("share-private-domain"),
